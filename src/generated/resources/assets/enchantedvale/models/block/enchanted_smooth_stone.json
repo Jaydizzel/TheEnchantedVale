@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "enchantedvale:block/enchanted_smooth_stone"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enchantedvale:enchanted_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "enchantedvale:enchanted_planks"
+  }
+}

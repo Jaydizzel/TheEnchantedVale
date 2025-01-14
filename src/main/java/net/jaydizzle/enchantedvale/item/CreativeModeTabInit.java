@@ -19,7 +19,6 @@ public class CreativeModeTabInit {
             CREATIVE_MODE_TABS.register("vale_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.enchantedvale.vale_tab"))
                     .icon(() -> new ItemStack(BlockInit.ENCHANTED_COBBLESTONE))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EnchantedVale.MODID, "vale_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(BlockInit.ENCHANTED_COBBLESTONE);

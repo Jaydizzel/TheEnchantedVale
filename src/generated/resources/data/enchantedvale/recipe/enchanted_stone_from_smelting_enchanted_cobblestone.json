@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "enchanted_stone",
+  "ingredient": {
+    "item": "enchantedvale:enchanted_cobblestone"
+  },
+  "result": {
+    "count": 1,
+    "id": "enchantedvale:enchanted_stone"
+  }
+}
