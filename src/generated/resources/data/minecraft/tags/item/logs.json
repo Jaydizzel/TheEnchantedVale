@@ -1,9 +1,8 @@
 {
   "values": [
-    "enchantedvale:enchanted_log",
+    "enchantedvale:enchanted_wood",
     "enchantedvale:stripped_enchanted_log",
     "enchantedvale:stripped_enchanted_wood",
-    "enchantedvale:enchanted_wood",
-    "enchantedvale:enchanted_planks"
+    "enchantedvale:enchanted_log"
   ]
 }

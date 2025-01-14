@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "enchanted_log_smelt",
+  "ingredient": {
+    "item": "enchantedvale:stripped_enchanted_wood"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:charcoal"
+  }
+}

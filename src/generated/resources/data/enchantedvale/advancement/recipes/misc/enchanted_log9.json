@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enchanted_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchantedvale:enchanted_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "enchantedvale:enchanted_log9"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enchanted_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enchantedvale:enchanted_log9"
+    ]
+  }
+}

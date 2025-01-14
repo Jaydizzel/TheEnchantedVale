@@ -22,6 +22,9 @@ public class LootTableProviderInit extends BlockLootSubProvider {
         dropSelf(BlockInit.ENCHANTED_DIRT.get());
         dropSelf(BlockInit.ENCHANTED_PLANKS.get());
         dropSelf(BlockInit.ENCHANTED_LOG.get());
+        dropSelf(BlockInit.STRIPPED_ENCHANTED_WOOD.get());
+        dropSelf(BlockInit.STRIPPED_ENCHANTED_LOG.get());
+        dropSelf(BlockInit.ENCHANTED_WOOD.get());
 
         this.add(BlockInit.ENCHANTED_GRASS.get(), block -> this.createSingleItemTableWithSilkTouch(block, BlockInit.ENCHANTED_DIRT.get()));
 

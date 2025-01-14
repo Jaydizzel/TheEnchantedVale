@@ -23,8 +23,17 @@ public class BlockStateProviderInit extends BlockStateProvider {
         blockWithItem(BlockInit.ENCHANTED_STONE);
         blockWithItem(BlockInit.ENCHANTED_PLANKS);
 
+        axisBlock(((RotatedPillarBlock) BlockInit.ENCHANTED_WOOD.get()), blockTexture(BlockInit.ENCHANTED_LOG.get()), blockTexture(BlockInit.ENCHANTED_LOG.get()));
+        blockItem(BlockInit.ENCHANTED_WOOD);
+
         logBlock(((RotatedPillarBlock) BlockInit.ENCHANTED_LOG.get()));
         blockItem(BlockInit.ENCHANTED_LOG);
+
+        axisBlock(((RotatedPillarBlock) BlockInit.STRIPPED_ENCHANTED_WOOD.get()), blockTexture(BlockInit.STRIPPED_ENCHANTED_LOG.get()), blockTexture(BlockInit.STRIPPED_ENCHANTED_LOG.get()));
+        blockItem(BlockInit.STRIPPED_ENCHANTED_WOOD);
+
+        logBlock(((RotatedPillarBlock) BlockInit.STRIPPED_ENCHANTED_LOG.get()));
+        blockItem(BlockInit.STRIPPED_ENCHANTED_LOG);
 
         blockWithItem(BlockInit.ENCHANTED_COBBLESTONE);
 

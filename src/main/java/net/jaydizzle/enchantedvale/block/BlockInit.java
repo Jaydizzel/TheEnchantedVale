@@ -43,9 +43,9 @@ public class BlockInit {
                 }
             });
     public static final DeferredBlock<Block> ENCHANTED_LOG = registerBlock("enchanted_log", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG).strength(4f)));
-    public static final DeferredBlock<Block> ENCHANTED_WOOD = registerBlock("enchanted_wood", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.of().strength(4f).noLootTable()));
-    public static final DeferredBlock<Block> STRIPPED_ENCHANTED_LOG = registerBlock("stripped_enchanted_log", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.of().strength(4f).noLootTable()));
-    public static final DeferredBlock<Block> STRIPPED_ENCHANTED_WOOD = registerBlock("stripped_enchanted_wood", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.of().strength(4f).noLootTable()));
+    public static final DeferredBlock<Block> ENCHANTED_WOOD = registerBlock("enchanted_wood", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD).strength(4f)));
+    public static final DeferredBlock<Block> STRIPPED_ENCHANTED_LOG = registerBlock("stripped_enchanted_log", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final DeferredBlock<Block> STRIPPED_ENCHANTED_WOOD = registerBlock("stripped_enchanted_wood", () -> new FlammableRotatedPillarBlockInit(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

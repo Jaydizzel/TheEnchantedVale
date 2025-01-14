@@ -1,4 +1,7 @@
-// 1.21	2025-01-14T01:36:48.2016321	Tags for minecraft:block mod id enchantedvale
-ff6140d7d57d81bf5a98fca28571c15a3f1a4402 data/minecraft/tags/block/mineable/axe.json
+// 1.21	2025-01-14T02:48:58.5188183	Tags for minecraft:block mod id enchantedvale
+e3b5d5440ae20e652953fb71fc61d3d7b0231c19 data/minecraft/tags/block/logs.json
+e3b5d5440ae20e652953fb71fc61d3d7b0231c19 data/minecraft/tags/block/logs_that_burn.json
+e9b41adfa32f0600bc355e7664bbd7558a8004d3 data/minecraft/tags/block/mineable/axe.json
 769d04c222d78ae8aa1c393e27acbb9d3677898b data/minecraft/tags/block/mineable/pickaxe.json
 ef083507571900e48acaa632dc6951e44d8ab524 data/minecraft/tags/block/mineable/shovel.json
+0df3b5674e4cb031c80f7a1468b189a9eee968b2 data/minecraft/tags/block/planks.json

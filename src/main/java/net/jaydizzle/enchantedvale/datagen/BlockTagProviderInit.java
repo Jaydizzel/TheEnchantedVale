@@ -29,6 +29,26 @@ public class BlockTagProviderInit extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(BlockInit.ENCHANTED_LOG.get())
+                .add(BlockInit.STRIPPED_ENCHANTED_LOG.get())
+                .add(BlockInit.STRIPPED_ENCHANTED_WOOD.get())
+                .add(BlockInit.ENCHANTED_WOOD.get())
                 .add(BlockInit.ENCHANTED_PLANKS.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(BlockInit.ENCHANTED_PLANKS.get());
+
+        this.tag(BlockTags.LOGS)
+                .add(BlockInit.STRIPPED_ENCHANTED_LOG.get())
+                .add(BlockInit.STRIPPED_ENCHANTED_WOOD.get())
+                .add(BlockInit.ENCHANTED_WOOD.get())
+                .add(BlockInit.ENCHANTED_LOG.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(BlockInit.STRIPPED_ENCHANTED_LOG.get())
+                .add(BlockInit.STRIPPED_ENCHANTED_WOOD.get())
+                .add(BlockInit.ENCHANTED_WOOD.get())
+                .add(BlockInit.ENCHANTED_LOG.get());
+
+
     }
 }

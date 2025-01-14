@@ -6,6 +6,9 @@
   "block.enchantedvale.enchanted_grass": "Enchanted Grass",
   "block.enchantedvale.enchanted_log": "Enchanted Log",
   "block.enchantedvale.enchanted_planks": "Enchanted Planks",
+  "block.enchantedvale.enchanted_wood": "Enchanted Wood",
+  "block.enchantedvale.stripped_enchanted_wood": "Stripped Enchanted Wood",
+  "block.enchantedvale.stripped_enchanted_log": "Stripped Enchanted Log",
 
   "itemGroup.enchantedvale.vale_tab": "\u00a75\u00a7l\u00a7uThe Enchanted Vale"
 }

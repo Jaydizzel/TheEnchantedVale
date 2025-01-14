@@ -27,6 +27,9 @@ public class CreativeModeTabInit {
                         pOutput.accept(BlockInit.ENCHANTED_DIRT);
                         pOutput.accept(BlockInit.ENCHANTED_GRASS);
                         pOutput.accept(BlockInit.ENCHANTED_LOG);
+                        pOutput.accept(BlockInit.STRIPPED_ENCHANTED_LOG);
+                        pOutput.accept(BlockInit.ENCHANTED_WOOD);
+                        pOutput.accept(BlockInit.STRIPPED_ENCHANTED_WOOD);
                         pOutput.accept(BlockInit.ENCHANTED_PLANKS);
 
                     }).build());

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "enchantedvale:block/stripped_enchanted_log_top",
+    "side": "enchantedvale:block/stripped_enchanted_log"
+  }
+}
